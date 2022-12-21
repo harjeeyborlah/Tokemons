@@ -1,0 +1,132 @@
+.textcolor {
+    background: linear-gradient(0deg, #2b3087 0%, #00b4ec 81.99%), #ffd100;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.we {
+    color: #dde2ff;
+    opacity: 0.6;
+}
+
+.hoverme {
+    background: #22a75d;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+    border-radius: 52px;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.phone-image {
+    width: 100%;
+    height: 529.54px;
+    top: 510px;
+    object-fit: cover;
+}
+
+.creators {
+    color: #22a75d;
+}
+
+.holders {
+    color: #2278d4;
+}
+
+.creatorholder {
+    background-color: #171b29;
+    border-radius: 25px;
+    height: 470px;
+}
+
+.content {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 992px) {
+    .first-text {
+        top: 120px;
+        left: 110px;
+        font-size: 38px;
+        color: #0f1320;
+    }
+
+    .second-text-big {
+        top: 200px;
+        left: 110px;
+        font-size: 14px;
+        color: #0f1320;
+        opacity: 0.6;
+    }
+    .third-text-big {
+        top: 240px;
+        left: 110px;
+        font-size: 14px;
+        color: #0f1320;
+        opacity: 0.6;
+    }
+    .fourth-text-big {
+        top: 320px;
+        left: 110px;
+        font-size: 14px;
+        color: #0f1320;
+        opacity: 0.6;
+    }
+}
+
+.first-text-sm {
+    top: 90px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+    /* or 111% */
+
+    color: #0f1320;
+}
+
+.second-text-sm {
+    top: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    /* or 143% */
+
+    color: #0f1320;
+
+    opacity: 0.6;
+}
+
+.third-text-sm,.fourth-text-sm{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+
+color: #0F1320;
+
+opacity: 0.6;
+}
+
+.third-text-sm{
+    top:270px;
+}
+
+.fourth-text-sm{
+    top:390px;
+}
+
+.ellipse{
+    max-width: 12px;
+    max-height: 12px;
+}
