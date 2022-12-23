@@ -130,3 +130,16 @@ opacity: 0.6;
     max-width: 12px;
     max-height: 12px;
 }
+
+.quarter-text{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+
+/* or 189% */
+
+color: #FFFFFF;
+
+opacity: 0.7;
+}
