@@ -134,7 +134,7 @@ opacity: 0.6;
 .quarter-text{
     font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 14px;
 line-height: 34px;
 
 /* or 189% */
@@ -142,4 +142,20 @@ line-height: 34px;
 color: #FFFFFF;
 
 opacity: 0.7;
+}
+
+.number-1{
+    color:#22A75D;
+}
+
+.number-2{
+    color:#2278D4;
+}
+
+.number-3{
+    color:#FFD100;
+}
+
+.number-4{
+    color:#E20613;
 }
