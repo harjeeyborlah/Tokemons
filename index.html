@@ -1,357 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="viewport"
-            content="width=<device-width>, initial-scale=1.0"
-        />
-        <title>Tokemons</title>
-        <link rel="stylesheet" href="public/second.css" />
-        <link rel="stylesheet" href="public/style.css" />
-    </head>
-    <body class="m-0 font-body" style="background-color: #0f1320">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Tokemons</title>
+    <link rel="stylesheet" href="public/second.css" />
+    <link rel="stylesheet" href="public/style.css" />
+  </head>
+  <body class="m-0 font-body" style="background-color: #0f1320">
+    <div
+      class="text-white flex justify-between items-baseline mx-5 mt-10 md:mt-5"
+    >
+      <nav class="flex pr-8 items-baseline">
+        <div class="pr-8">
+          <img src="public/img/logo_colored_sign_black_text.svg" />
+        </div>
+        <div>
+          <ul class="hidden md:flex flex-row text-sm font-bold" id="menu">
+            <li class="pr-4"><a href="#">Our team</a></li>
+            <li class="pr-4"><a href="#">Tokens</a></li>
+            <li class="pr-4"><a href="#">Connect Wallet</a></li>
+            <li class="pr-4 z-10"><a href="#">Whitepaper</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav>
+        <ul class="hidden md:flex flex-row text-sm font-bold" id="register">
+          <li class="mr-8 border-2 border-none rounded-2xl px-6 py-1 z-10">
+            <a href="#">Sign In</a>
+          </li>
+          <li
+            class="border-2 border-green-400 rounded-2xl mr-8 px-6 py-1 whitespace-nowrap z-10"
+          >
+            <a href="#">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="md:hidden" id="burger">
+        <img src="public/img/menu-ic.png" />
+      </div>
+    </div>
+    <section class="mt-14 section_1 md:ml-12">
+      <div class="md:ml-10 md:flex flex-row">
+        <div class="md:w-3/6 pb-5 md:flex md:flex-col mx-5">
+          <h3 class="textcolor text-sm font-bold md:text-base pb-2.5">
+            At Tokners we are
+          </h3>
+          <h2 class="text-4xl text-white font-bold md:text-4xl pb-5">
+            Reimagining social media through the power of the blockchain.
+          </h2>
+          <h3 class="we text-sm font-bold md:text-base pb-9">
+            We are creating social media 3.0 with influencers, celebrities and
+            creators being able to launch their own digital currency by simply
+            creating a profile with media content posted as Non fungible Tokens
+            that can be owned and traded on the Tknrs network
+          </h3>
+          <a href=""><button class="hoverme px-6 py-3">Learn More</button></a>
+        </div>
+        <div class="hidden sm:block -mt-32">
+          <img src="/public/img/laptop.png" />
+        </div>
+        <div class="sm:hidden">
+          <img src="/public/img/phone-first.png " class="phone-image" />
+        </div>
+      </div>
+    </section>
+    <section class="mb-6 md:mx-32 md:pb-10">
+      <div class="px-4 md:flex flex-row">
         <div
-            class="text-white flex justify-between items-baseline mx-5 mt-10 md:mt-5"
+          class="creatorholder mt-2 mb-2 py-7 px-9 md:px-14 md:py-12 md:w-1/2 md:mr-2 md:mt-0"
         >
-            <nav class="flex pr-8 items-baseline">
-                <div class="pr-8">
-                    <img src="public/img/logo_colored_sign_black_text.svg" />
-                </div>
-                <div>
-                    <ul
-                        class="hidden md:flex flex-row text-sm font-bold"
-                        id="menu"
-                    >
-                        <li class="pr-4"><a href="#">Our team</a></li>
-                        <li class="pr-4"><a href="#">Tokens</a></li>
-                        <li class="pr-4"><a href="#">Connect Wallet</a></li>
-                        <li class="pr-4 z-10"><a href="#">Whitepaper</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <nav>
-                <ul
-                    class="hidden md:flex flex-row text-sm font-bold"
-                    id="register"
-                >
-                    <li
-                        class="mr-8 border-2 border-none rounded-2xl px-6 py-1 z-10"
-                    >
-                        <a href="#">Sign In</a>
-                    </li>
-                    <li
-                        class="border-2 border-green-400 rounded-2xl mr-8 px-6 py-1 whitespace-nowrap z-10"
-                    >
-                        <a href="#">Sign Up</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="md:hidden" id="burger">
-                <img src="public/img/menu-ic.png" />
-            </div>
+          <img src="/public/img/for creators.svg" />
+          <div class="text-sl md:text-3xl">
+            <p class="font-bold inline-block text-white">For</p>
+            <p class="font-medium inline-block underline creators">Creators</p>
+          </div>
+          <br />
+          <p class="content text-sm font-semi-bold md:font-bold">
+            Creators can gain independence through a decentralised digital
+            currency system that is dependent on growing and engaging with the
+            community and also their star power. They own 10-15% of the total
+            value of the tokens minted.
+          </p>
+          <br />
+          <br />
+          <div>
+            <p
+              class="font-semi-bold underline md:font-bold inline-block text-green-400"
+            >
+              Learn More
+            </p>
+            <img class="inline-block" src="/public/img/arrow-right-green.svg" />
+          </div>
         </div>
-        <section class="mt-14 section_1 md:ml-12">
-            <div class="md:ml-10 md:flex flex-row">
-                <div class="md:w-3/6 pb-5 md:flex md:flex-col mx-5">
-                    <h3 class="textcolor text-sm font-bold md:text-base pb-2.5">
-                        At Tokners we are
-                    </h3>
-                    <h2 class="text-4xl text-white font-bold md:text-4xl pb-5">
-                        Reimagining social media through the power of the
-                        blockchain.
-                    </h2>
-                    <h3 class="we text-sm font-bold md:text-base pb-9">
-                        We are creating social media 3.0 with influencers,
-                        celebrities and creators being able to launch their own
-                        digital currency by simply creating a profile with media
-                        content posted as Non fungible Tokens that can be owned
-                        and traded on the Tknrs network
-                    </h3>
-                    <a href=""
-                        ><button class="hoverme px-6 py-3">
-                            Learn More
-                        </button></a
-                    >
-                </div>
-                <div class="hidden sm:block -mt-32">
-                    <img src="/public/img/laptop.png" />
-                </div>
-                <div class="sm:hidden">
-                    <img
-                        src="/public/img/phone-first.png "
-                        class="phone-image"
-                    />
-                </div>
+        <div
+          class="creatorholder py-7 px-9 md:px-14 md:py-12 md:w-1/2 md:mt-20"
+        >
+          <img src="/public/img/for holders.png" />
+          <div class="text-sl md:text-3xl">
+            <p class="font-bold inline-block text-white">For</p>
+            <p class="font-medium inline-block underline holders">Holders</p>
+          </div>
+          <br />
+          <p class="content text-sm font-semi-bold md:font-bold">
+            Holding social tokens allows the individual to gain access to
+            benefits including unreleased content, private communities, direct
+            access to celebrity, early- access to tickets and more as well as
+            the ability to trade with other communities in order to gain access
+            to more creator content with early token buyers being the biggest
+            winners as the value of the token increases with more buyers.
+          </p>
+          <br />
+          <div>
+            <p
+              class="font-semi-bold underline text-blue-400 md:font-bold inline-block"
+            >
+              Learn More
+            </p>
+            <img class="inline-block" src="/public/img/arrow-right-ic.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hidden md:block">
+      <div class="md:flex celeb">
+        <div class="md:flex md:flex-1 md:w-0">
+          <img src="/public/img/laptop-base-text-left.png" />
+        </div>
+        <div class="md:flex md:flex-1 md:w-0 relative">
+          <div>
+            <img src="/public/img/laptop-base-text-right.png" />
+            <div class="first-text font-bold absolute">
+              What makes us different?
             </div>
-        </section>
-        <section class="mb-6 md:mx-32 md:pb-10">
-            <div class="px-4 md:flex flex-row">
-                <div
-                    class="creatorholder mt-2 mb-2 py-7 px-9 md:px-14 md:py-12 md:w-1/2 md:mr-2 md:mt-0"
-                >
-                    <img src="/public/img/for creators.svg" />
-                    <div class="text-sl md:text-3xl">
-                        <p class="font-bold inline-block text-white">For</p>
-                        <p class="font-medium inline-block underline creators">
-                            Creators
-                        </p>
-                    </div>
-                    <br />
-                    <p class="content text-sm font-semi-bold md:font-bold">
-                        Creators can gain independence through a decentralised
-                        digital currency system that is dependent on growing and
-                        engaging with the community and also their star power.
-                        They own 10-15% of the total value of the tokens minted.
-                    </p>
-                    <br />
-                    <br />
-                    <div>
-                        <p
-                            class="font-semi-bold underline md:font-bold inline-block text-green-400"
-                        >
-                            Learn More
-                        </p>
-                        <img
-                            class="inline-block"
-                            src="/public/img/arrow-right-green.svg"
-                        />
-                    </div>
-                </div>
-                <div
-                    class="creatorholder py-7 px-9 md:px-14 md:py-12 md:w-1/2 md:mt-20"
-                >
-                    <img src="/public/img/for holders.png" />
-                    <div class="text-sl md:text-3xl">
-                        <p class="font-bold inline-block text-white">For</p>
-                        <p class="font-medium inline-block underline holders">
-                            Holders
-                        </p>
-                    </div>
-                    <br />
-                    <p class="content text-sm font-semi-bold md:font-bold">
-                        Holding social tokens allows the individual to gain
-                        access to benefits including unreleased content, private
-                        communities, direct access to celebrity, early- access
-                        to tickets and more as well as the ability to trade with
-                        other communities in order to gain access to more
-                        creator content with early token buyers being the
-                        biggest winners as the value of the token increases with
-                        more buyers.
-                    </p>
-                    <br />
-                    <div>
-                        <p
-                            class="font-semi-bold underline text-blue-400 md:font-bold inline-block"
-                        >
-                            Learn More
-                        </p>
-                        <img
-                            class="inline-block"
-                            src="/public/img/arrow-right-ic.svg"
-                        />
-                    </div>
-                </div>
+            <div class="md:absolute font-medium second-text-big">
+              We would only launch tokens with the express permission of the
+              creators.
             </div>
-        </section>
-        <section class="hidden md:block">
-            <div class="md:flex celeb">
-                <div class="md:flex md:flex-1 md:w-0">
-                    <img src="/public/img/laptop-base-text-left.png" />
-                </div>
-                <div class="md:flex md:flex-1 md:w-0 relative">
-                    <div>
-                        <img src="/public/img/laptop-base-text-right.png" />
-                        <div class="first-text font-bold absolute">
-                            What makes us different?
-                        </div>
-                        <div class="md:absolute font-medium second-text-big">
-                            We would only launch tokens with the express
-                            permission of the creators.
-                        </div>
-                        <div class="md:absolute font-normal third-text-big">
-                            There are several thousand celebrities and creators
-                            on twitter, tiktok, Instagram and YouTube with
-                            followings in the millions who we would be actively
-                            engaging before we go viral.
-                        </div>
-                        <div class="md:absolute font-normal fourth-text-big">
-                            We would get them on our platform and they would see
-                            the opportunity to create a fan driven digital
-                            economy where their digital content can be traded as
-                            NFTs and their most loyal fans can have the monetary
-                            value of their creator's currency increase
-                            significantly as they promote their digital currency
-                            across their channels while our native token holders
-                            benefit from the Weentar popularity.
-                        </div>
-                    </div>
-                </div>
+            <div class="md:absolute font-normal third-text-big">
+              There are several thousand celebrities and creators on twitter,
+              tiktok, Instagram and YouTube with followings in the millions who
+              we would be actively engaging before we go viral.
             </div>
-        </section>
-        <section class="md:hidden">
-            <div>
-                <img src="/public/img/phone-rainbow.png" class="w-full" />
+            <div class="md:absolute font-normal fourth-text-big">
+              We would get them on our platform and they would see the
+              opportunity to create a fan driven digital economy where their
+              digital content can be traded as NFTs and their most loyal fans
+              can have the monetary value of their creator's currency increase
+              significantly as they promote their digital currency across their
+              channels while our native token holders benefit from the Weentar
+              popularity.
             </div>
-            <div class="relative">
-                <div>
-                    <img
-                        src="/public/img/phone-text-white.png"
-                        class="w-full"
-                    />
-                    <div class="px-5 first-text-sm absolute">
-                        What makes us different?
-                    </div>
-                    <div class="px-5 second-text-sm absolute">
-                        We would only launch tokens with the express permission
-                        of the creators.
-                    </div>
-                    <div class="px-5 third-text-sm absolute">
-                        There are several thousand celebrities and creators on
-                        twitter, tiktok, Instagram and YouTube with followings
-                        in the millions who we would be actively engaging before
-                        we go viral.
-                    </div>
-                    <div class="px-5 fourth-text-sm absolute">
-                        We would get them on our platform and they would see the
-                        opportunity to create a fan driven digital economy where
-                        their digital content can be traded as NFTs and their
-                        most loyal fans can have the monetary value of their
-                        creator's currency increase significantly as they
-                        promote their digital currency across their channels
-                        while our native token holders benefit from the Weentar
-                        popularity.
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section  class="bg-white">
-            <div class=" bg-[#0f1320] rounded-bl-[50px]  md:rounded-tr-[80px] md:rounded-bl-[80px]">
-            <div class=" px-5 justify-center md:flex md:flex-row md:pt-16">
-                <div class="md:pr-3">
-                    <div class="flex items-center">
-                        <div>
-                            <img src="/public/img/Group 65.svg" />
-                        </div>
-                        <div class="flex flex-col">
-                            <img src="/public/img/Ellipse 22.svg" class="ellipse"/>
-                            <p class="text-white">2021</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="inline-block number-1 ">01</p>
-                        <p class="inline-block quarter-text">Team Setup</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-1">02</p>
-                        <p class="inline-block quarter-text">Launch of informational website</p>
-                    </div>
-                </div>
-                <div class="md:pr-3">
-                    <div class="flex items-center">
-                        <div>
-                            <img src="/public/img/Group 66.svg" />
-                        </div>
-                        <div class="flex flex-col">
-                            <img src="/public/img/Ellipse 23.svg" class="ellipse"/>
-                            <p class="text-white">2021</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="inline-block number-2">01</p>
-                        <p class="inline-block quarter-text">Presale and exchange listings</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-2">03</p>
-                        <p class="inline-block quarter-text">Blockchain development and launch</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-2">04</p>
-                        <p class="inline-block quarter-text">Launch of our MVP</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-2">05</p>
-                        <p class="inline-block quarter-text">Influencer agency partnerships</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-2">06</p>
-                        <p class="inline-block quarter-text">Marketing and promotion</p>
-                    </div>
-                </div>
-                <div class="md:pr-3">
-                    <div class="flex items-center">
-                        <div>
-                            <img src="/public/img/Group 67.svg" />
-                        </div>
-                        <div class="flex flex-col">
-                            <img src="/public/img/Ellipse 24.svg" class="ellipse"/>
-                            <p class="text-white">2021</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="inline-block number-3">01</p>
-                        <p class="inline-block quarter-text">Celebrity, Creator and Influencer partnerships</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-3">02</p>
-                        <p class="inline-block quarter-text">Expansion of creator communities on our platform</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-3">03</p>
-                        <p class="inline-block quarter-text">More Marketing and promotion</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="flex items-center">
-                        <div>
-                            <img src="/public/img/Group 68.svg" />
-                        </div>
-                        <div class="flex flex-col">
-                            <img src="/public/img/Ellipse 25.svg" class="ellipse"/>
-                            <p class="text-white">2021</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="inline-block number-4 mr-5">01</p>
-                        <p class="inline-block quarter-text ">Mainstream partnerships</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-4 mr-4">02</p>
-                        <p class="inline-block quarter-text ">500 active creator communities</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-4 mr-4">03</p>
-                        <p class="inline-block quarter-text">2 Million active community members</p>
-                    </div>
-                    <div>
-                        <p class="inline-block number-4 mr-4">04</p>
-                        <p class="inline-block quarter-text">More Marketing and promotion</p>
-                    </div>
-                </div>
-                
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="md:hidden">
+      <div>
+        <img src="/public/img/phone-rainbow.png" class="w-full" />
+      </div>
+      <div class="relative">
+        <div>
+          <img src="/public/img/phone-text-white.png" class="w-full" />
+          <div class="px-5 first-text-sm absolute">
+            What makes us different?
+          </div>
+          <div class="px-5 second-text-sm absolute">
+            We would only launch tokens with the express permission of the
+            creators.
+          </div>
+          <div class="px-5 third-text-sm absolute">
+            There are several thousand celebrities and creators on twitter,
+            tiktok, Instagram and YouTube with followings in the millions who we
+            would be actively engaging before we go viral.
+          </div>
+          <div class="px-5 fourth-text-sm absolute">
+            We would get them on our platform and they would see the opportunity
+            to create a fan driven digital economy where their digital content
+            can be traded as NFTs and their most loyal fans can have the
+            monetary value of their creator's currency increase significantly as
+            they promote their digital currency across their channels while our
+            native token holders benefit from the Weentar popularity.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white">
+      <div
+        class="bg-[#0f1320] rounded-bl-[50px] md:rounded-tr-[80px] md:rounded-bl-[80px]"
+      >
+        <div class="pt-10 px-5 justify-center md:flex md:flex-row md:pt-16">
+          <div class="pb-10 md:pr-3 md:pb-4">
+            <div class="flex items-center">
+              <div>
+                <img src="/public/img/Group 65.svg" />
+              </div>
+              <div class="flex flex-col">
+                <img src="/public/img/Ellipse 22.svg" class="ellipse" />
+                <p class="text-white">2021</p>
+              </div>
             </div>
             <div>
-                <div>
-                    <img src="/public/img/weentar phone.png">
-                </div>
-                <div>
-                    <img src="/public/img/weentar is coming phone.png">
-                    <p>Weentar is coming</p>
-                    <p>Cryptocurrency adoption is at less than 1% of the global world population with some countries and entities actively fighting against its mass adoption and the smartest developers and nerds holding the fort. </p>
-                    <p>Bitcoin was the first, and it has since grown to thousands of tokens launched all aiming to fix one problem or the other with some quite simply FOMOing the moment. Our goal is to bring mass adoption to the cryptocurrency space by dumbing it down. How far down? So down that even a celebrity can explain it in simple words to their followers and have them download an app, buy into the social currency of their favourite person and watch their
-                        investment as is with other crypto currency project.  </p>
-                    <p>We are trying to do to this space what investment apps did for the "nonexistent retail investors". We are gamefying digital currency, bringing in popular faces instead of hard to understand projects to make it the norm and inadvertently being the "gateway drug" for a lot of people to finally give this space a real look. </p>
-                    <p>A new digital economy is coming. People would be just as powerful as countries and creators would be paid beyond the peanuts that conventional social media platforms can offer. 
-                    </p>
-                    <p>There would be new markets and advertisers with little to offer would not find home there. Like Kanye said,</p>
-                    <p><span class="font-bold text-yellow-400"><q></q></span> </p>
-                </div>
+              <p class="inline-block number-1">01</p>
+              <p class="inline-block quarter-text">Team Setup</p>
             </div>
+            <div>
+              <p class="inline-block number-1">02</p>
+              <p class="inline-block quarter-text">
+                Launch of informational website
+              </p>
+            </div>
+          </div>
+          <div class="pb-10 md:pr-3">
+            <div class="flex items-center">
+              <div>
+                <img src="/public/img/Group 66.svg" />
+              </div>
+              <div class="flex flex-col">
+                <img src="/public/img/Ellipse 23.svg" class="ellipse" />
+                <p class="text-white">2021</p>
+              </div>
+            </div>
+            <div>
+              <p class="inline-block number-2">01</p>
+              <p class="inline-block quarter-text">
+                Presale and exchange listings
+              </p>
+            </div>
+            <div>
+              <p class="inline-block number-2">03</p>
+              <p class="inline-block quarter-text">
+                Blockchain development and launch
+              </p>
+            </div>
+            <div>
+              <p class="inline-block number-2">04</p>
+              <p class="inline-block quarter-text">Launch of our MVP</p>
+            </div>
+            <div>
+              <p class="inline-block number-2">05</p>
+              <p class="inline-block quarter-text">
+                Influencer agency partnerships
+              </p>
+            </div>
+            <div>
+              <p class="inline-block number-2">06</p>
+              <p class="inline-block quarter-text">Marketing and promotion</p>
+            </div>
+          </div>
+          <div class="pb-10 md:pr-3">
+            <div class="flex items-center">
+              <div>
+                <img src="/public/img/Group 67.svg" />
+              </div>
+              <div class="flex flex-col">
+                <img src="/public/img/Ellipse 24.svg" class="ellipse" />
+                <p class="text-white">2021</p>
+              </div>
+            </div>
+            <div>
+              <p class="inline-block number-3">01</p>
+              <p class="inline-block quarter-text">
+                Celebrity, Creator and Influencer partnerships
+              </p>
+            </div>
+            <div>
+              <p class="inline-block number-3">02</p>
+              <p class="inline-block quarter-text">
+                Expansion of creator communities on our platform
+              </p>
+            </div>
+            <div>
+              <p class="inline-block number-3">03</p>
+              <p class="inline-block quarter-text">
+                More Marketing and promotion
+              </p>
+            </div>
+          </div>
+          <div class="pb-10">
+            <div class="flex items-center">
+              <div>
+                <img src="/public/img/Group 68.svg" />
+              </div>
+              <div class="flex flex-col">
+                <img src="/public/img/Ellipse 25.svg" class="ellipse" />
+                <p class="text-white">2021</p>
+              </div>
+            </div>
+            <div>
+              <p class="inline-block number-4 mr-5">01</p>
+              <p class="inline-block quarter-text">Mainstream partnerships</p>
+            </div>
+            <div>
+              <p class="inline-block number-4 mr-4">02</p>
+              <p class="inline-block quarter-text">
+                500 active creator communities
+              </p>
+            </div>
+            <div>
+              <p class="inline-block number-4 mr-4">03</p>
+              <p class="inline-block quarter-text">
+                2 Million active community members
+              </p>
+            </div>
+            <div>
+              <p class="inline-block number-4 mr-4">04</p>
+              <p class="inline-block quarter-text">
+                More Marketing and promotion
+              </p>
+            </div>
+          </div>
         </div>
-        
+        <div class="md:hidden ml-5 mr-5">
+          <div class="pt-16 pb-16">
+            <img src="/public/img/weentar phone.png" />
+          </div>
+          <div class="text-white">
+            <img src="/public/img/weentar is coming phone.png" />
+            <p class="text-white text-3xl font-bold pb-7">Weentar is coming</p>
+            <p>
+              Cryptocurrency adoption is at less than 1% of the global world
+              population with some countries and entities actively fighting
+              against its mass adoption and the smartest developers and nerds
+              holding the fort.
+            </p>
+            <p class="pt-5">
+              Bitcoin was the first, and it has since grown to thousands of
+              tokens launched all aiming to fix one problem or the other with
+              some quite simply FOMOing the moment. Our goal is to bring mass
+              adoption to the cryptocurrency space by dumbing it down. How far
+              down? So down that even a celebrity can explain it in simple words
+              to their followers and have them download an app, buy into the
+              social currency of their favourite person and watch their
+              investment as is with other crypto currency project
+              <span id="dots">...</span>
+            </p>
+            <span id="more"
+              ><p class="pt-5">
+                We are trying to do to this space what investment apps did for
+                the "nonexistent retail investors". We are gamefying digital
+                currency, bringing in popular faces instead of hard to
+                understand projects to make it the norm and inadvertently being
+                the "gateway drug" for a lot of people to finally give this
+                space a real look.
+              </p>
+              <p class="pt-5">
+                A new digital economy is coming. People would be just as
+                powerful as countries and creators would be paid beyond the
+                peanuts that conventional social media platforms can offer.
+              </p>
+              <p class="pt-5">
+                There would be new markets and advertisers with little to offer
+                would not find home there. Like Kanye said,
+              </p>
+              <p class="pt-5 italic">
+                "Personalities would become the new currency, and services would
+                be built on top of them".
+              </p>
+              <p class="pt-5">
+                Well, Kanye didn't exactly say that, but it sounds like
+                something we hope he would say.
+              </p>
+              <p class="pt-5">
+                Currency is digital, it has been that way for a while now, but
+                this time there would be no dead presidents on the money, there
+                would people like you on the money, and you would own it because
+                it would make the most sense in the world.
+              </p></span
+            >
+            <button onclick="myFunction()" id="myBtn">
+              Read more
+            </button>
+          </div>
+        </div>
 
-        </section>
-        <script src="public/index.js"></script>
-    </body>
+        <div class="hidden md:block">
+          <div>
+            <div>
+              <p>Tokner is coming</p>
+            </div>
+            <p>
+              Cryptocurrency adoption is at less than 1% of the global world
+              population with some countries and entities actively fighting
+              against its mass adoption and the smartest developers and nerds
+              holding the fort.
+            </p>
+            <p class="opacity-0">
+              Bitcoin was the first, and it has since grown to thousands of
+              tokens launched all aiming to fix one problem or the other with
+              some quite simply FOMOing the moment. Our goal is to bring mass
+              adoption to the cryptocurrency space by dumbing it down. How far
+              down? So down that even a celebrity can explain it in simple words
+              to their followers and have them download an app, buy into the
+              social currency of their favourite person and watch their
+              investment as is with other crypto currency project.
+            </p>
+            <p>
+              We are trying to do to this space what investment apps did for the
+              "nonexistent retail investors". We are gamefying digital currency,
+              bringing in popular faces instead of hard to understand projects
+              to make it the norm and inadvertently being the "gateway drug" for
+              a lot of people to finally give this space a real look.
+            </p>
+            <p>
+              A new digital economy is coming. People would be just as powerful
+              as countries and creators would be paid beyond the peanuts that
+              conventional social media platforms can offer.
+            </p>
+            <p>
+              There would be new markets and advertisers with little to offer
+              would not find home there. Like Kanye said,
+            </p>
+            <p>
+              "Personalities would become the new currency, and services would
+              be built on top of them".
+            </p>
+            <p>
+              Well, Kanye didn't exactly say that, but it sounds like something
+              we hope he would say.
+            </p>
+            <p>
+              Currency is digital, it has been that way for a while now, but
+              this time there would be no dead presidents on the money, there
+              would people like you on the money, and you would own it because
+              it would make the most sense in the world.
+            </p>
+          </div>
+          <div>
+            <img
+              src="/public/img/Woman-Holding-iPhone-Xs-in-Hand-Mockup 1.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="public/index.js"></script>
+  </body>
 </html>
