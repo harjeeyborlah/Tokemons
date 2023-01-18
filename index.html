@@ -7,6 +7,10 @@
     <title>Tokemons</title>
     <link rel="stylesheet" href="public/second.css" />
     <link rel="stylesheet" href="public/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body class="m-0 font-body">
     <div class="" style="background-color: #0f1320">
@@ -472,65 +476,82 @@
         </div>
       </section>
     </div>
+
     <section class="md:hidden bg-red-400">
       <h3 class="text-center font-bold text-3xl pt-3 pb-3 text-white">
         Presale Details
       </h3>
 
-      <div card1 class="bg-white ml-10 mr-10 rounded-[30px]">
-        <div  class="text-center pt-10 pb-10">
-          <div class="flex justify-center">
-            <img src="/public/img/Group 65.svg" />
+      <div class="swiper" id="swiper-1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="bg-white ml-2 mr-2 rounded-[30px]">
+              <div class="text-center pt-10 pb-10">
+                <div class="flex justify-center">
+                  <img src="/public/img/Group 65.svg" />
+                </div>
+                <h4 class="font-bold text-2xl pb-2">Phase One</h4>
+                <p class="font-bold text-xs pb-10">0/04/2021 - 16/04/2021</p>
+                <p class="font-bold text-sm pb-5">1 BNB = 100000 WNTR</p>
+                <p class="text-xs font-normal pb-2">
+                  Soft cap: <span class="font-bold">5000 BNB</span>
+                </p>
+                <p class="text-xs font-normal">
+                  Hard cap: <span class="font-bold">10000 BNB</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <h4 class="font-bold text-2xl pb-2">Phase One</h4>
-          <p class="font-bold text-xs pb-10">0/04/2021 - 16/04/2021</p>
-          <p class="font-bold text-sm pb-5">1 BNB = 100000 WNTR</p>
-          <p class="text-xs font-normal pb-2">
-            Soft cap: <span class="font-bold">5000 BNB</span>
-          </p>
-          <p class="text-xs font-normal">
-            Hard cap: <span class="font-bold">10000 BNB</span>
-          </p>
-        </div>
-      </div>
 
-      <div card2 class="bg-white ml-10 mr-10 rounded-[30px]">
-        <div  class="text-center pt-10 pb-10">
-          <div class="flex justify-center">
-            <img src="/public/img/Group 66.svg" />
+          <div class="swiper-slide">
+            <div class="bg-white ml-2 mr-2 rounded-[30px]">
+              <div class="text-center pt-10 pb-10">
+                <div class="flex justify-center">
+                  <img src="/public/img/Group 66.svg" />
+                </div>
+                <h4 class="font-bold text-2xl pb-2">Phase Two</h4>
+                <p class="font-bold text-xs pb-10">0/04/2021 - 16/04/2021</p>
+                <p class="font-bold text-sm pb-5">1 BNB = 100000 WNTR</p>
+                <p class="text-xs font-normal pb-2">
+                  Soft cap: <span class="font-bold">5000 BNB</span>
+                </p>
+                <p class="text-xs font-normal">
+                  Hard cap: <span class="font-bold">10000 BNB</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <h4 class="font-bold text-2xl pb-2">Phase Two</h4>
-          <p class="font-bold text-xs pb-10">0/04/2021 - 16/04/2021</p>
-          <p class="font-bold text-sm pb-5">1 BNB = 100000 WNTR</p>
-          <p class="text-xs font-normal pb-2">
-            Soft cap: <span class="font-bold">5000 BNB</span>
-          </p>
-          <p class="text-xs font-normal">
-            Hard cap: <span class="font-bold">10000 BNB</span>
-          </p>
-        </div>
-      </div>
 
-      <div card3 class="bg-white ml-10 mr-10 rounded-[30px]">
-        <div  class="text-center pt-10 pb-10">
-          <div class="flex justify-center">
-            <img src="/public/img/Group 67.svg" />
+          <div class="swiper-slide">
+            <div class="bg-white ml-2 mr-2 rounded-[30px]">
+              <div class="text-center pt-10 pb-10">
+                <div class="flex justify-center">
+                  <img src="/public/img/Group 67.svg" />
+                </div>
+                <h4 class="font-bold text-2xl pb-2">Phase Two</h4>
+                <p class="font-bold text-xs pb-10">0/04/2021 - 16/04/2021</p>
+                <p class="font-bold text-sm pb-5">1 BNB = 100000 WNTR</p>
+                <p class="text-xs font-normal pb-2">
+                  Soft cap: <span class="font-bold">5000 BNB</span>
+                </p>
+                <p class="text-xs font-normal">
+                  Hard cap: <span class="font-bold">10000 BNB</span>
+                </p>
+              </div>
+            </div>
           </div>
-          <h4 class="font-bold text-2xl pb-2">Phase Two</h4>
-          <p class="font-bold text-xs pb-10">0/04/2021 - 16/04/2021</p>
-          <p class="font-bold text-sm pb-5">1 BNB = 100000 WNTR</p>
-          <p class="text-xs font-normal pb-2">
-            Soft cap: <span class="font-bold">5000 BNB</span>
-          </p>
-          <p class="text-xs font-normal">
-            Hard cap: <span class="font-bold">10000 BNB</span>
-          </p>
         </div>
+
+
+        <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
-
-
     </section>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="public/index.js"></script>
+    
   </body>
 </html>
