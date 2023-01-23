@@ -80,7 +80,7 @@
 }
 
 .first-text-sm {
-  top: 90px;
+  top: 70px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -92,7 +92,7 @@
 }
 
 .second-text-sm {
-  top: 200px;
+  top: 180px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -120,11 +120,11 @@
 }
 
 .third-text-sm {
-  top: 270px;
+  top: 250px;
 }
 
 .fourth-text-sm {
-  top: 390px;
+  top: 370px;
 }
 
 .ellipse {
@@ -203,3 +203,8 @@ color: #FFFFFF;
 }
 
 
+.tobuy{
+  opacity: 30%;
+color:#FFFFFF;
+
+}

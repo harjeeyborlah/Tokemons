@@ -39,18 +39,21 @@ function myFunction() {
 
   // for the read more and read less portion
 
-  new Swiper ("#swiper-1",{
-    slidesPerView:1.25,
+  new Swiper ("#swiper-1", {
+    slidesPerView:1.1,
     centeredSlides:true,
     spaceBetween:2,
     lazyLoading:true,
     loop:true,
-    pagination: {
-      el: ".swiper-pagination",
+
+    pagination:{
+      el: ("#swiper-1 .swiper-custom-pagination"),
       clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+      renderBullet:function(index,className){
+        return ` <div class=${className}>
+        <span class="number">${index + 1}</span>
+        <span class="line"></span>>
+        </div>`
+      }
+    }
   });
