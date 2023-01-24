@@ -12,7 +12,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
   </head>
-  <body class="m-0 font-body">
+  <body class="m-0 font-body bg-[#101114]">
     <div  style="background-color: #0f1320">
       <div
         class="text-white flex justify-between items-baseline mx-5 pt-10 md:pt-5"
@@ -32,10 +32,10 @@
               id="menu"
             >
               <li class="pr-4">
-                <a href="#" class="hover:opacity-70">Our team</a>
+                <a href="ourteam.html" class="hover:opacity-70">Our team</a>
               </li>
               <li class="pr-4">
-                <a href="#" class="hover:opacity-70">Tokens</a>
+                <a href="tokemons.html" class="hover:opacity-70">Tokens</a>
               </li>
               <li class="pr-4">
                 <a href="#" class="hover:opacity-70">Connect Wallet</a>
@@ -87,7 +87,8 @@
           </div>
         </div>
       </section>
-      <section class="mb-6 md:mx-32 md:pb-10">
+
+      <section class="mb-6 md:mx-32 md:pb-10 ">
         <div class="px-4 md:flex flex-row">
           <div
             class="creatorholder mt-2 mb-2 py-7 px-9 md:px-14 md:py-12 md:w-1/2 md:mr-2 md:mt-0"
@@ -100,7 +101,7 @@
               </p>
             </div>
             <br />
-            <p class="content text-sm font-semi-bold md:font-bold">
+            <p class="content text-sm font-semi-bold md:font-bold ">
               Creators can gain independence through a decentralised digital
               currency system that is dependent on growing and engaging with the
               community and also their star power. They own 10-15% of the total
@@ -608,7 +609,6 @@
 
     <section class="bg-[#101114] ">
       <p class="font-bold text-3xl text-[#ffffff] text-center pt-4 pb-4">How to buy</p>
-
       <div class="relative md:flex justify-center items-center md:h-[300px]" >
         <div class="bg-[#2e3440] mr-5 ml-5 p-10 mb-2 font-bold rounded-[25px] md:w-2/6  md:-mr-1" >
           <div class="tobuy mb-5">
@@ -645,22 +645,34 @@
         <button class="bg-[#101114] rounded-full p-4  pointer-events-none absolute  top-[63%]  left-[43%] z-10 md:-rotate-90  md:top-[50%] md:left-[64%]">
           <img src="/public/img/yellowhowtobuy.svg">
         </button>
-
       </div>
-
     </section>
 
-    <section class="hidden md:block bg-[#101114] pt-20 px-32">
-      <ol class="text-white underline flex justify-between">
-        <li><a href="#">OUR TEAM</a></li>
-        <li><a href="#">TOKENS</a></li>
+    <section class="hidden md:block bg-[#101114] py-20 px-32">
+      <ol class="text-white underline flex justify-between font-bold text-base">
+        <li><a href="ourteam.html">OUR TEAM</a></li>
+        <li><a href="tokemons.html">TOKENS</a></li>
         <li><a href="#">CONNECT WALLET</a></li>
         <li><a href="#">LIGHTPAPER</a></li>
       </ol>
     </section>
 
-    <footer>
-      
+    <footer class="bg-[#101114] pt-8 pb-5 md:flex justify-between px-5">
+      <div class="flex justify-center mb-8">
+        <a href="#"><img src="/public/img/footer pics.png"></a>
+      </div>
+      <div class="flex justify-center pb-8">
+        <a href="#"><button class="border-solid border-2 border-[#ffffff] rounded-full p-2 border-opacity-5 mr-4"><img src="/public/img/twitter (2) 1.svg"></button></a>
+        <a href="#"><button class="border-solid border-2 border-[#ffffff] rounded-full p-2 border-opacity-5 mr-4"><img src="/public/img/facebook (4) 1.svg"></button></a>
+        <a href="#"><button class="border-solid border-2 border-[#ffffff] rounded-full p-2 border-opacity-5 mr-4"><img src="/public/img/instagram (1) 1.svg"></button></a>
+        <a href="#"><button class="border-solid border-2 border-[#ffffff] rounded-full p-2 border-opacity-5 mr-4"><img src="/public/img/medium 1.svg"></button></a>
+        <a href="#"><button class="border-solid border-2 border-[#ffffff] rounded-full p-2 border-opacity-5 mr-4"><img src="/public/img/github 2.svg"></button></a>
+        <a href="#"><button class="border-solid border-2 border-[#ffffff] rounded-full p-2 border-opacity-5 mr-4"><img src="/public/img/reddit 1.svg"></button></a>
+      </div>
+      <div class="flex-col md:flex">
+        <p class="text-sm font-bold text-white flex justify-center">© 2023 Tokners. All rights reserved.</p>
+        <p class="font-normal text-xs text-white flex justify-center opacity-60">Designed by Oleg Kulik, Built by Siyanbola Ajibola</p>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
