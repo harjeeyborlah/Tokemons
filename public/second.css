@@ -40,8 +40,7 @@
 .creatorholder {
   background-color: #171b29;
   border-radius: 25px;
-  height: 470px;
-}
+  height: max-content;}
 
 .content {
   color: #ffffff;
@@ -206,5 +205,26 @@ color: #FFFFFF;
 .tobuy{
   opacity: 30%;
 color:#FFFFFF;
+
+}
+
+@media (min-width: 768px) { 
+  .contain{
+    display:grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: "first second third";
+  }
+#first{
+  grid-area: first;
+}
+
+#second{
+  grid-area: second;
+}
+
+#third{
+  grid-area: third;
+  align-self: center;
+}
 
 }
