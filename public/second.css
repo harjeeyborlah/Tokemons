@@ -228,3 +228,21 @@ color:#FFFFFF;
 }
 
 }
+
+.timeline{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(150px, 1fr));
+  grid-gap:10px;
+  
+}
+
+/* .timeline > div:last-of-type {
+  justify-items: center;
+} */
+
+@media (min-width: 768px) { 
+  .timeline{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+  }
+}
