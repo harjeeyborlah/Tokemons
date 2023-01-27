@@ -246,3 +246,10 @@ color:#FFFFFF;
     grid-template-columns: repeat(6,1fr);
   }
 }
+
+.net{
+  background-image: url(/public/img/tokemonsbackgroundphone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:900px;
+}
