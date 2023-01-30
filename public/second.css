@@ -247,9 +247,23 @@ color:#FFFFFF;
   }
 }
 
-.net{
-  background-image: url(/public/img/tokemonsbackgroundphone.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:900px;
+
+@media (max-width:480px) {
+  .net{
+    background-image: url(/public/img/tokemonsbackgroundphone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:900px;
+  }
+  
+}
+
+
+@media (min-width: 768px) { 
+  .net{
+    background-image: url(/public/img/backgroundimagelaptop.png);
+ 
+  border-bottom-left-radius: 25px;
+  object-fit: cover;
+  }
 }
