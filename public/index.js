@@ -38,6 +38,9 @@ function myFunction() {
   } 
 
   // For the read more and read less portion
+
+
+
   new Swiper ("#swiper-1", {
     slidesPerView:1.1,
     centeredSlides:true,
@@ -56,3 +59,8 @@ function myFunction() {
       }
     }
   });
+
+
+
+
+  

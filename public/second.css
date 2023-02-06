@@ -40,7 +40,8 @@
 .creatorholder {
   background-color: #171b29;
   border-radius: 25px;
-  height: max-content;}
+  height: max-content;
+}
 
 .content {
   color: #ffffff;
@@ -169,7 +170,6 @@
   font-weight: 700;
   font-size: 18px;
 
-
   /* identical to box height */
 
   color: #22a75d;
@@ -182,88 +182,88 @@
   margin-bottom: 15px;
 }
 
-.color{
-  color: #FFFFFF;
+.color {
+  color: #ffffff;
 
   opacity: 0.6;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.tokneriscomingphone{
+.tokneriscomingphone {
   font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 54px;
-color: #FFFFFF;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: #ffffff;
 }
 
-.carousel{
-  position:relative;
+.carousel {
+  position: relative;
 }
 
-
-.tobuy{
+.tobuy {
   opacity: 30%;
-color:#FFFFFF;
-
+  color: #ffffff;
 }
 
-@media (min-width: 768px) { 
-  .contain{
-    display:grid;
+@media (min-width: 768px) {
+  .contain {
+    display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-areas: "first second third";
   }
-#first{
-  grid-area: first;
+  #first {
+    grid-area: first;
+  }
+
+  #second {
+    grid-area: second;
+  }
+
+  #third {
+    grid-area: third;
+    align-self: center;
+  }
 }
 
-#second{
-  grid-area: second;
-}
-
-#third{
-  grid-area: third;
-  align-self: center;
-}
-
-}
-
-.timeline{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(150px, 1fr));
-  grid-gap:10px;
-  
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 10px;
 }
 
 /* .timeline > div:last-of-type {
   justify-items: center;
 } */
 
-@media (min-width: 768px) { 
-  .timeline{
-    display:grid;
-    grid-template-columns: repeat(6,1fr);
+@media (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
-
-@media (max-width:480px) {
-  .net{
+@media (max-width: 480px) {
+  .net {
     background-image: url(/public/img/tokemonsbackgroundphone.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height:900px;
+    height: 900px;
   }
-  
 }
 
-
-@media (min-width: 768px) { 
-  .net{
+@media (min-width: 768px) {
+  .net {
     background-image: url(/public/img/backgroundimagelaptop.png);
- 
-  border-bottom-left-radius: 25px;
-  object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    border-bottom-right-radius: 100px;
   }
 }
+
