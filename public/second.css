@@ -267,3 +267,11 @@
   }
 }
 
+.swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 1 !important;
+}
+
+
+
+

@@ -1,17 +1,17 @@
 var swiper = new Swiper(".mySwiper", {
-    pagination: {
-      el: ".swiper-pagination",
-      dynamicBullets: true,
-      clickable:true,
-    },
     lazyLoading:true,
     loop:true,
-
     slidesPerView: 1.1,
     centeredSlides:true,
     spaceBetween:2,
 
-
+    pagination: {
+      el: '.swiper-custom-pagination',
+  clickable: true,
+  renderBullet: (index, className) => {
+   return '<span class="' + className + '">' + (index + 1) + "</span>";
+  },
+    },
     breakpoints: {
         // when window width is >= 480px
         480: {
@@ -23,5 +23,9 @@ var swiper = new Swiper(".mySwiper", {
           slidesPerView: 4,
           spaceBetween: 40
         }
-    }
+    },
+    navigation:{
+      nextEl:"#nav-right",
+      prevEl:"#nav-left",
+    },
   });
