@@ -51,12 +51,7 @@ function myFunction() {
     pagination:{
       el: ("#swiper-1 .swiper-custom-pagination"),
       clickable: true,
-      renderBullet:function(index,className){
-        return ` <div class=${className}>
-        <span class="number">${index + 1}</span>
-        <span class="line"></span>>
-        </div>`
-      }
+      dynamicBullets:true,
     }
   });
 

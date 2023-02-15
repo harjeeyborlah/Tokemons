@@ -267,10 +267,20 @@
   }
 }
 
+
+
+
 .swiper-pagination-bullet {
-  background-color: white !important;
-  opacity: 1 !important;
+  background-color:white !important;
+  
 }
+
+
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+  transform: translateX(150%) !important;
+}
+
+
 
 
 
